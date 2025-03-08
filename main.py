@@ -15,7 +15,7 @@ def password_strength():
      if re.search(r"\d", password):
           point += 2
      else:
-          st.error("Password should have at least one digit.")
+          st.error("Password should have atleast one digit.")
 
      if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
           point += 2
